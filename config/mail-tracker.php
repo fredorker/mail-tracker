@@ -77,5 +77,9 @@ return [
      * What queue should we dispatch our tracking jobs to?  Null will use the default queue.
      */
     'tracker-queue' => null,
-
+    
+    /**
+     * The Swift plugin to inject when creating the mail
+     */
+    'swift-plugin' => \jdavidbakr\MailTracker\MailTracker::class
 ];
